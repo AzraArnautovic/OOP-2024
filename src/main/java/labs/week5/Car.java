@@ -1,6 +1,7 @@
 package labs.week5;
 
     class Car extends Vehicle implements Repairable {
+
         public Car(String modelName) {
             super(modelName);
         }
@@ -25,20 +26,17 @@ package labs.week5;
         }
 
         public void drive(int miles) {
-            setMileage(getMileage() + miles);
-            setHealth(getHealth() - (miles / 100));
+            super.setMileage(getMileage() + miles);
+            super.setHealth(getHealth() - (miles / 100));
             if (getHealth() < 30) {
-                setExpectedLifespan(getExpectedLifespan() - 10000);
+                super.setExpectedLifespan(getExpectedLifespan() - 10000);
+
             }
+            int remainingLifespan = calculateRemainingLifespan();
+            System.out.println("Remaining Lifespan after driving: " + remainingLifespan + " miles");
         }
 
-        private void setMileage(int mileage) {
 
-        }
-
-        private void setHealth(int health) {
-
-        }
     }
 
 
