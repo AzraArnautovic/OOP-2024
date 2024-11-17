@@ -1,5 +1,5 @@
-package labs.week3.database.model;
-import labs.week3.enums;
+/*package labs.week3.database.model;
+import labs.week3.enum;
 public class TaskItem {
 }
 public classTaskItem {
@@ -37,4 +37,4 @@ public classTaskItem {
     public void setId(int id) {
         this.id = id;
     }
-}
+}*/

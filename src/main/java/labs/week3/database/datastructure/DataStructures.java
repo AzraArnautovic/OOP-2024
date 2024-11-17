@@ -1,4 +1,4 @@
-package labs.week3.database.datastructure;
+/*package labs.week3.database.datastructure;
 import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.List;
@@ -45,4 +45,4 @@ public class DataStructures {
         }
     }
 }
-
+*/

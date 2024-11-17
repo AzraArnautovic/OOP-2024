@@ -32,7 +32,7 @@ package labs.week5;
                 super.setExpectedLifespan(getExpectedLifespan() - 10000);
 
             }
-            int remainingLifespan = calculateRemainingLifespan();
+            int remainingLifespan = calculateRemainingLifespan(0);
             System.out.println("Remaining Lifespan after driving: " + remainingLifespan + " miles");
         }
 
